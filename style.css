@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.header-bg {
+  background-color: #1F2937;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1200px;
+}
+
+.header-bg .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+.header-bg .nav-links ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.header-bg .nav-links a {
+  color: #F9FAF8;
+  font-weight: 500;
+}
+
+
+
+.hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center
+
+
+    
+}
+
+.hero-content {
+  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-left: 250px;
+  padding-right: 20px;
+  
+}
+
+.hero-image {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.logo {
+    padding-left: 250px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.hero-image {
+  background-color: #6b7280;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+}
+
+.info {
+  color: #1F2937;
+  padding: 40px;
+  text-align: center;
+
+}
+.info h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.info-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.info-item {
+  max-width: 150px;
+
+
+}
+.info-img {
+  border: 3px solid #3882F6;
+  border-radius: 16px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 8px;
+
+}
+
+
+.quotes {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding:  40px;
+  text-align: center;
+  font-style: italic;
+}
+.quotes .author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-right: 450px;
+}
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 64px;
+    margin: 64px;
+    border-radius: 16px;
+    color: white;
+    align-items: center;
+
+}
+
+
+.ct-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+    cursor: pointer;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
