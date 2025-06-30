@@ -55,10 +55,6 @@ body {
   
 }
 
-.hero-image {
-    padding-right: 150px;
-    padding-left: 150px;
-}
 
 .logo {
     padding-left: 250px;
@@ -78,16 +74,14 @@ body {
 
 }
 
-.hero-image {
-  background-color: #6b7280;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
+img {
+    border-radius: 18px;
+}
 
+.info-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .info {
